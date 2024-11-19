@@ -75,6 +75,7 @@
             this.btnrequisicoes.TabIndex = 3;
             this.btnrequisicoes.Text = "Gerir Requisições";
             this.btnrequisicoes.UseVisualStyleBackColor = true;
+            this.btnrequisicoes.Click += new System.EventHandler(this.btnrequisicoes_Click);
             // 
             // frmMenu
             // 
