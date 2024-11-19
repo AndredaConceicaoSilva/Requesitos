@@ -30,7 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.btnColaboradores = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnFerramentas = new System.Windows.Forms.Button();
             this.btnrequisicoes = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -55,15 +55,16 @@
             this.btnColaboradores.UseVisualStyleBackColor = true;
             this.btnColaboradores.Click += new System.EventHandler(this.btnColaboradores_Click);
             // 
-            // button1
+            // btnFerramentas
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(483, 199);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(150, 84);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Gerir Ferramentas";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnFerramentas.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFerramentas.Location = new System.Drawing.Point(483, 199);
+            this.btnFerramentas.Name = "btnFerramentas";
+            this.btnFerramentas.Size = new System.Drawing.Size(150, 84);
+            this.btnFerramentas.TabIndex = 2;
+            this.btnFerramentas.Text = "Gerir Ferramentas";
+            this.btnFerramentas.UseVisualStyleBackColor = true;
+            this.btnFerramentas.Click += new System.EventHandler(this.btnFerramentas_Click);
             // 
             // btnrequisicoes
             // 
@@ -81,7 +82,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnrequisicoes);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnFerramentas);
             this.Controls.Add(this.btnColaboradores);
             this.Controls.Add(this.label1);
             this.Name = "frmMenu";
@@ -95,7 +96,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnColaboradores;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnFerramentas;
         private System.Windows.Forms.Button btnrequisicoes;
     }
 }
